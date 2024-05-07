@@ -41,7 +41,8 @@ const CountryPage = () => {
 							<strong>Native Name:</strong> {country.nativeName}
 						</p>
 						<p>
-							<strong>Population:</strong> {country.population}
+							<strong>Population:</strong>{" "}
+							{country.population.toLocaleString("en-US")}
 						</p>
 						<p>
 							<strong>Region:</strong> {country.region}

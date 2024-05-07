@@ -55,7 +55,7 @@ const Main = () => {
 							code={country.alpha3Code}
 							flag={country.flags.svg}
 							name={country.name}
-							population={country.population}
+							population={country.population.toLocaleString("en-US")}
 							region={country.region}
 							capital={country.capital}
 						/>
