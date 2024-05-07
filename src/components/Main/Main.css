@@ -1,0 +1,59 @@
+main {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 1rem;
+  padding-top: 130px;
+  position: relative;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+main label {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 1rem 1.5rem;
+  color: var(--input-text);
+  cursor: pointer;
+  flex: 1;
+}
+
+.search-icon {
+  font-size: 20px;
+}
+
+#search {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--black);
+}
+
+#filter {
+  border: none;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(271.55px, 1fr));
+  justify-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}

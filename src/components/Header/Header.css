@@ -1,0 +1,36 @@
+.header-w {
+  background-color: var(--white);
+  width: 100%;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.055);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+header .toggle-theme {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+header .toggle-theme:hover {
+  opacity: .5;
+}

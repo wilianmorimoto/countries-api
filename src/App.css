@@ -1,0 +1,8 @@
+.App {
+	min-height: 100vh;
+	font-size: 14px;
+	background-color: var(--bg);
+	color: var(--text);
+	transition: .2s;
+	padding-bottom: 10rem;
+}
