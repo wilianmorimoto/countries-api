@@ -11,11 +11,14 @@ function App() {
 
 	return (
 		<BrowserRouter>
-			<div className={`App ${darkTheme && 'dark'}`}>
+			<div className={`App ${darkTheme && "dark"}`}>
 				<Header darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
 				<Routes>
-					<Route path="/" element={<Main />} />
-					<Route path="/:alpha3Code" element={<CountryPage />} />
+					<Route path="/react-countries-api" element={<Main />} />
+					<Route
+						path="/react-countries-api/:alpha3Code"
+						element={<CountryPage />}
+					/>
 				</Routes>
 			</div>
 		</BrowserRouter>

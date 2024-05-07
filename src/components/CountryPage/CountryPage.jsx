@@ -27,7 +27,7 @@ const CountryPage = () => {
 
 	return (
 		<div className="country-page">
-			<Link to={"/"}>
+			<Link to={"/react-countries-api"}>
 				<button>
 					<FaArrowLeftLong /> Back
 				</button>
@@ -70,7 +70,7 @@ const CountryPage = () => {
 						<h3>Border Countries</h3>
 						<div className="border-countries">
 							{borders.map(border => (
-								<Link to={`/${border.alpha3Code}`}>
+								<Link to={`/react-countries-api/${border.alpha3Code}`}>
 									<span>{border.name.split(" ")[0]}</span>
 								</Link>
 							))}
