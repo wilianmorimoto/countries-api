@@ -14,9 +14,9 @@ function App() {
 			<div className={`App ${darkTheme && "dark"}`}>
 				<Header darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
 				<Routes>
-					<Route path="/react-countries-api" element={<Main />} />
+					<Route path="/countries-api" element={<Main />} />
 					<Route
-						path="/react-countries-api/:alpha3Code"
+						path="/countries-api/:alpha3Code"
 						element={<CountryPage />}
 					/>
 				</Routes>

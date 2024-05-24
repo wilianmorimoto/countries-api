@@ -10,7 +10,7 @@ const CountryCard = ({
 	capital
 }) => {
 	return (
-		<Link to={`/react-countries-api/${code}`} className="card-link">
+		<Link to={`/countries-api/${code}`} className="card-link">
 			<div className="country-w">
 				<img src={flag} alt={name} />
 				<div className="country-text">
