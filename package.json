@@ -1,6 +1,6 @@
 {
-  "homepage": "https://wilianmorimoto.github.io/react-countries-api",
-  "name": "react-countries-api",
+  "homepage": "https://wilianmorimoto.github.io/countries-api",
+  "name": "countries-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
